@@ -18,7 +18,7 @@ export default function ProfileHeader({ name, bio, image }: Props) {
           </span>
         )}
       </div>
-      <h1 className="mt-4 text-xl font-bold">{name}</h1>
+      <h1 className="mt-7 text-xl font-bold">{name}</h1>
       <p className="mt-1 text-sm text-stone-600">{bio}</p>
     </header>
   );

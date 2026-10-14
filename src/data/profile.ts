@@ -12,14 +12,13 @@ export type Profile = {
   links: LinkItem[];
 };
 
-// TODO: 보여주기용 더미 값. 실제 정보로 교체할 것
 export const profile: Profile = {
-  name: "이땡땡",
-  bio: "클로드 개발 꿈나무",
+  name: "지미니",
+  bio: "클로드 개발 꿈나무 🌱 사내 프로젝트 진행 중이에요",
   image: "/profile-placeholder.svg",
   links: [
-    { id: "github", title: "GitHub", url: "https://github.com/" },
-    { id: "linkedin", title: "LinkedIn", url: "https://www.linkedin.com/" },
-    { id: "blog", title: "Blog", url: "https://example.com/" },
+    { id: "github", title: "🐙 깃허브", url: "https://github.com/jeemin2115" },
+    { id: "email", title: "📮 이메일", url: "mailto:jeemin.2115@gmail.com" },
+    { id: "instagram", title: "📷 인스타그램", url: "https://www.instagram.com/__zzming" },
   ],
 };
